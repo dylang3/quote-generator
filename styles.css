@@ -1,0 +1,131 @@
+/* Utility Classes */
+
+.hidden {
+    display: none;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main CSS */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background: url("img1.jpg") no-repeat center center / cover;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #2f2f2f;
+    box-shadow: 0 0 10px #2f2f2f;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2f2f2f;
+    margin: 20px auto;
+    padding: 5px;
+    width: 80%;
+}
+
+.main-content {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px 40px 30px;
+    box-shadow: 0 0 10px;
+}
+
+.add-quote-btn,
+.close-page-btn {
+    display: block;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+#add-quote-btn {
+    background-color: #2f2f2f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#close-page-btn {
+    background-color: #2f2f2f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#add-quote-btn:hover,
+#close-page-btn:hover {
+    scale: 110%;
+    cursor: pointer;
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.button-area button,
+.add-quote-area button {
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.button-area button:hover,
+.add-quote-area button:hover {
+    background: #494646;
+    cursor: pointer;
+}
+
+.button-area button:active,
+.add-quote-area button:active {
+    background-color: lightblue;
+}
+
+.add-quote-area h2 {
+    margin-bottom: 1rem;
+}
+
+.add-quote-area input {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.add-quote-area > div {
+    font-size: 1.5rem;
+}
