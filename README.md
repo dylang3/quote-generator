@@ -2,7 +2,7 @@
 
 This application randomly displays a quote which is selected from a default array of quotes. The user also has the ability to add new quotes to be randomly selected and displayed. A local storage solution is currently used for the application, but upgrading to a database solution is a priority for Version 3.0. 
 
-The initial version of the application was created based on [this Youtube video](www.youtube.com). I expanded upon the original application to include the functionality for users to add their own custom quotes and for these custom quotes to be saved using the user's local browser storage (Version 2.0). 
+The initial version of the application was created based on [this Youtube video](https://www.youtube.com). I expanded upon the original application to include the functionality for users to add their own custom quotes and for these custom quotes to be saved using the user's local browser storage (Version 2.0). 
 
 ## To-Do:
 * Remove ability for a user to add a blank quote or a quote without attribution to an individual
