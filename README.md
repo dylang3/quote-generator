@@ -7,6 +7,7 @@ The initial version of the application was created based on [this Youtube video]
 ## To-Do:
 * Remove ability for a user to add a blank quote or a quote without attribution to an individual
 * Add functionality to view the entire array of quotes as a list
+  * One idea is to create a modal from which the user add quotes. The quote list view could then just have an "Add New Quote" button that triggers this modal.
 * Add functionality to remove a quote from the quotes array
 * Alter random selection of quotes such that quotes are sampled without replacement until all quotes have been displayed
   * The existing add quote functionality may be removed in favor of including this functionality with the quote list
