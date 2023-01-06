@@ -11,5 +11,5 @@ The initial version of the application was created based on [this Youtube video]
 * Add functionality to remove a quote from the quotes array
 * Alter random selection of quotes such that quotes are sampled without replacement until all quotes have been displayed
   * The existing add quote functionality may be removed in favor of including this functionality with the quote list
-* Implement database storage solution (V4.0)
-* User authentication (V4.0)
+* Implement database storage solution (v4.0)
+* User authentication (v4.0)
